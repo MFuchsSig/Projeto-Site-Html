@@ -3,9 +3,12 @@ body{
 			font-size :16px;
 			text-align: justify;
 			padding: 1%;
+			background-color: #2E8B57;
 		}
 		nav{
 			text-align: center;
+			background: #2E8B57;
+			padding: 3px;
 		}
 		#atendimento{
 			text-align: right;
@@ -73,8 +76,19 @@ body{
 
 		a:link, a:visited, a:active{
 			text-decoration: none;
+			color: #fff;
 		}
 		a:houver{
-			background-color: #2E8B57;
-			color: #fff;
+			color: #FF4500;
+			transition: 2s;
+		}
+
+		#container{
+			background-color: #fff;
+			padding: 1px;
+			box-shadow: 2px 2px 2px #fff;
+		}
+
+		.conteudo{
+			padding: 3%;
 		}
